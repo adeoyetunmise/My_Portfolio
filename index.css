@@ -1,0 +1,164 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #23263A;
+    color: white;
+    position: sticky;
+    z-index: 999;
+    top: -10px;
+    box-shadow: 5px 2px 5px 5px #363c61;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+
+.navigation{
+    font-family: "Roboto", sans-serif;
+    width: 40%;
+    height: 3rem;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.link{
+    display: inline-block;
+    width: 6rem;
+    color: white;
+}
+
+
+.logo{
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    align-items: center;
+    padding: 8px;
+
+}
+.logo .first-letter{
+    color: brown;
+}
+
+/* Main */
+
+.hero-container{
+    background-color: #2b304c;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    padding-top: 2rem;
+}
+
+.hero-text{
+    margin: auto;
+    width: 50%;
+}
+
+.hero-text h1{
+    color: brown;
+}
+
+.hire-me{
+    background-color:#2b304c ;
+    border:2px solid brown;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+    margin-top: 3rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.hire-me:hover{
+    background-color: brown;
+    color: white;
+}
+
+.view-projects{
+    background-color:#2b304c ;
+    border:2px solid brown;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+    margin-top: 3rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.view-projects:hover{
+    background-color: brown;
+    color: white;
+}
+.hero-image-container{
+    margin-right:15rem ;
+}
+
+.hero-image{
+    border-radius: 30%;
+    width: 15rem;
+}
+
+/* Footer */
+
+footer{
+    background-color: #23263A;
+    height:35vh ;
+    color: white;
+}
+
+.logo2{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    padding: 3%;
+}
+
+.logo2 .first-letter{
+    color: brown;
+}
+
+.logo2 p{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    margin-top: 25px;
+
+}
+
+.media{
+    margin-top: 1rem;
+    
+    
+}
+
+#social{
+    color: brown;
+    padding-right: 2rem;
+}
+
